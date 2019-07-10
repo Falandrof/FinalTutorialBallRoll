@@ -59,9 +59,9 @@ public class PlayerController : MonoBehaviour {
     void SetCountText ()
     {
         countText.text = "Count: " + count.ToString ();
-        if (count == 12)
+        if (count == 1)
         {
-            transform.position = new Vector3(40f, 10f, 13.0f); 
+            transform.position = new Vector3(40, transform.position.y, 13); 
         }
     }
 
